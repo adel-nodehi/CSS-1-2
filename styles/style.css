@@ -56,6 +56,16 @@ body {
   box-shadow: 1px 1px 12px #ffff00;
 }
 
+.box__list {
+  background-color: #0000003c;
+  padding: 0;
+  /* list-style-type: square; */
+  list-style-image: url("../images/tick.svg");
+  list-style-position: inside;
+
+  /* list-style: none; */
+}
+
 .box__button-wrapper {
   text-align: center;
 }
