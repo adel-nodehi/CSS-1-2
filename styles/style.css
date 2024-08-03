@@ -1,5 +1,7 @@
 body {
   font-family: Poppins;
+
+  position: relative;
 }
 
 .box {
@@ -10,6 +12,8 @@ body {
   border: 5px solid blue;
 
   /* outline: 20px solid purple; */
+
+  position: relative;
 }
 
 .box__title {
@@ -99,4 +103,35 @@ body {
 
 .box__button:visited {
   /* color: #000; */
+}
+
+/* .box__discount,
+.fix,
+.sticky { */
+.initial-position-style {
+  display: inline-block;
+  color: #fff;
+  background-color: red;
+  font-size: 14px;
+  padding: 4px 8px;
+  border-radius: 50px;
+}
+
+.box__discount {
+  position: absolute;
+  top: -20px;
+  left: -30px;
+  /* right: 0; */
+  /* bottom: 0; */
+}
+
+.fix {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.sticky {
+  position: sticky;
+  top: 20px;
 }
